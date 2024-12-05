@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import ItemNavegacao from "./ItemNavegacao";
 
-const ListaEstiliada = styled.ul`
+const ListaEstilizada = styled.ul`
   list-style: none;
   padding: 0;
   margin: 0;
@@ -12,7 +12,7 @@ const BarraLateral = () => {
   return (
     <aside>
       <nav>
-        <ListaEstiliada>
+        <ListaEstilizada>
           <ItemNavegacao
             iconeAtivo="/Icones/HomeAtivo.png"
             iconeInativo="/Icones/HomeInativo.png"
@@ -22,11 +22,23 @@ const BarraLateral = () => {
           </ItemNavegacao>
           <ItemNavegacao
             iconeAtivo="/Icones/CurtidasAtivo.png"
-            iconeInativo="/Icones/CurtidaInativo.png"   
+            iconeInativo="/Icones/CurtidaInativo.png"
           >
             Populares
           </ItemNavegacao>
-        </ListaEstiliada>
+          <ItemNavegacao
+            iconeAtivo="/Icones/CurtidasAtivo.png"
+            iconeInativo="/Icones/CurtidaInativo.png"
+          >
+            Integrantes
+          </ItemNavegacao>
+          <ItemNavegacao
+            iconeAtivo="/Icones/CurtidasAtivo.png"
+            iconeInativo="/Icones/CurtidaInativo.png"
+          >
+            Sobre Nós
+          </ItemNavegacao>
+        </ListaEstilizada>
       </nav>
     </aside>
   );
