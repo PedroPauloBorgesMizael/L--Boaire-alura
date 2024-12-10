@@ -3,6 +3,7 @@ import EstilosGlobais from "./componentes/EstilosGlobais";
 import Cabecalho from "./componentes/Cabecalho";
 import BarraLateral from "./componentes/BarraLateral";
 import Banner from "./componentes/Banner";
+import bannerBackgroud from "./assets/Banner.png";
 
 const FundoGradiente = styled.div`
   background: linear-gradient(
@@ -15,14 +16,25 @@ const FundoGradiente = styled.div`
   min-height: 100vh;
 `;
 
+const AppContainer = styled.div`
+  width: 1440px;
+  margin: 0 auto;
+  max-width: 100%;
+
+`
+
 function App() {
   return (
-  <FundoGradiente>
-    <EstilosGlobais />
-    <Cabecalho />   
-    <BarraLateral />
-    <Banner />
-  </FundoGradiente>
+    <FundoGradiente>
+      <EstilosGlobais />
+      <AppContainer>
+        <Cabecalho />
+        <BarraLateral />
+        <Banner backgroundImage={bannerBackgroud}>
+          Beba Drinks <br /> Lê Boaire Drinks
+        </Banner>
+      </AppContainer>
+    </FundoGradiente>
   )
 }
 
