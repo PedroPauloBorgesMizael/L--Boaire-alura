@@ -1,0 +1,26 @@
+[
+    {
+            "id": 0,
+            "titulo": "Todos"
+            },
+    {
+            "id": 1,
+            "titulo": "Cachaça"
+        },
+    {
+            "id": 2,
+            "titulo": "Fiu-fiu"
+        },
+    {
+            "id": 3,
+            "titulo": "Vodka"
+        },
+    {
+            "id": 4,
+            "titulo": "Gin"
+        },
+    {
+            "id": 5,
+            "titulo": "Diversos"
+        }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "titulo": "Aperol",
+        "tag": "diversos",
+        "fonte": "Lê Boaire Drinks",
+        "path": "/imagens/Drinks/aperol.png",
+        "id": "1",
+        "tagId": 2,
+        "favorito": false
+    },
+    {
+        "titulo": "Caipirinha",
+        "tag": "cachaca",
+        "fonte": "Lê Boaire Drinks",
+        "path": "/imagens/Drinks/caipirinha.png",
+        "id": "2",
+        "tagId": 2,
+        "favorito": false
+    },
+    {
+        "titulo": "Caipiroska",
+        "tag": "vodka",
+        "fonte": "Lê Boaire Drinks",
+        "path": "/imagens/Drinks/caipiroska.png",
+        "id": "3",
+        "tagId": 2,
+        "favorito": false
+    },
+    {
+        "titulo": "Gin Tropical",
+        "tag": "gin",
+        "fonte": "Lê Boaire Drinks",
+        "path": "/imagens/Drinks/gin_tropical.png",
+        "id": "4",
+        "tagId": 2,
+        "favorito": false
+    },
+    {
+        "titulo": "Lagoa Azul",
+        "tag": "vodka",
+        "fonte": "Lê Boaire Drinks",
+        "path": "/imagens/Drinks/lagoa_azul.png",
+        "id": "5",
+        "tagId": 2,
+        "favorito": false
+    },
+    {
+        "titulo": "Moda da Casa",
+        "tag": "fiu-fiu",
+        "fonte": "Lê Boaire Drinks",
+        "path": "/imagens/Drinks/moda_da_casa.png",
+        "id": "6",
+        "tagId": 2,
+        "favorito": false
+    },
+    {
+        "titulo": "Moscow Mulle",
+        "tag": "vodka",
+        "fonte": "Lê Boaire Drinks",
+        "path": "/imagens/Drinks/moscow_mulle.png",
+        "id": "7",
+        "tagId": 2,
+        "favorito": false
+    }
+]
