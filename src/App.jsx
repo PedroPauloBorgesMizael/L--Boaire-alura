@@ -68,10 +68,6 @@ function App() {
     );
   };
 
-  const aoSelecionado = (selecionado) => {
-    if
-  }
-
   return (
     <FundoGradiente>
       <EstilosGlobais />
