@@ -45,6 +45,8 @@ function App() {
   const [photosPopular] = useState(fotosPopular)
   const [fotoSelecionada, setFotoSelecionada] = useState(null);
   const [fotoPopularSelecionada, setFotoPopularSelecionada] = useState(null);
+  
+  const [iconeSelecionado, setIconeSelecionado] = useState([0])
 
   const aoAlternarFavorito = (foto) => {
     if (foto.id === fotoSelecionada?.id) {
@@ -65,6 +67,10 @@ function App() {
       })
     );
   };
+
+  const aoSelecionado = (selecionado) => {
+    if
+  }
 
   return (
     <FundoGradiente>
